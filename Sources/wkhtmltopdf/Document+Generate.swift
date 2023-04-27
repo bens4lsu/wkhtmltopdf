@@ -20,7 +20,6 @@ extension Document {
                 "-R", "\(self.rightMargin)mm",
                 "-B", "\(self.bottomMargin)mm",
                 "-L", "\(self.leftMargin)mm",
-                "--enable-local-file-access"
             ]
             
             wkArgs += self.wkArgs
